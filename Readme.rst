@@ -34,8 +34,8 @@ From source:
 ::
 
     git clone https://github.com/rdeits/meshcat-python
-    git submodule update --init --recursive
     cd meshcat-python
+    git submodule update --init --recursive
     python setup.py install
 
 You will need the ZeroMQ libraries installed on your system:
